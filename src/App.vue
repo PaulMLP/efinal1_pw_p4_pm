@@ -1,17 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CasinoPage />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CasinoPage from "./modules/casino/pages/CasinoPage.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CasinoPage,
+  },
+};
 </script>
 
 <style>
@@ -20,7 +19,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 </style>
